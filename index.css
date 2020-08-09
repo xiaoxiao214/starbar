@@ -1,0 +1,196 @@
+html {
+    font-size: 62.5% !important;    /* 取默认字体的百分比 */
+}
+@media (min-width: 992px){
+    html {
+        font-size: 62.5%;
+    }
+}
+@media (min-width: 768px){
+    html {
+        font-size: 59%;
+    }
+}
+@media (min-width: 576px){
+    html {
+        font-size: 56%
+    }
+}
+body{
+    overflow-x: hidden;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+.leftIco{
+    left: 0;
+    /* height: 100%; */
+    /* background-color: #000; */
+}
+@media (max-width: 991.98px){
+    .leftIco{
+        position: relative!important;
+    }
+    .login{
+        height:auto!important;
+        
+    }
+    .menu{
+        height: 474%!important;
+    }
+}
+@media (max-width: 640px){
+    .login h1{
+        font-size: 2.2rem;
+    }
+}
+@media (max-width: 576px){
+    .menu{
+        height: 2225%!important;
+    }
+}
+.leftIco header{
+    height: 80px;
+}
+.leftIco header ul li{
+    font-size: 1.6rem;
+}
+.leftIco .icon-menu{
+    font-size: 3rem;
+    cursor: pointer;
+    color: #858585;
+}
+.login{
+    height:calc(100vh - 80px);
+}
+.login a{
+    font-size: 1.6rem;
+}
+.login .icon-kafei{
+    color:#67a4c7 ;
+    font-size: 20px;
+
+}
+.register{
+    border-radius: 10px;
+    font-size: 13px;
+}
+.menu{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: red;
+    z-index: 2000;
+    transition: 0.3s;
+
+}
+.list ul li{
+    list-style-type: none;
+    font-size: 1.8rem;
+}
+#closeBtn{
+    cursor: pointer;
+}
+footer a{
+    cursor: pointer;
+    color: #666;
+    font-size: 1.4rem;
+    line-height: 160%;
+    margin-top: 12px;
+    width: 100%;
+}
+.hide{
+    opacity: 0;
+    transform: scale(2);
+    z-index: -1;
+}
+.show{
+    opacity: 1;
+    transform: scale(1);
+}
+#pic .iconfont,#pic .iconfont{
+    font-size: 5rem;
+}
+.star h2{
+    font-size: 2.2rem;
+}
+.star p{
+    font-size: 1.6rem;
+    line-height: 34px;
+}
+.star a{
+    color: #c3a661;
+}
+.star button{
+    border-radius: 13px;
+}
+
+.betters h3,.teah h3{
+	font-size: 2.2rem;
+}
+.betters p,.teah p{
+	font-size: 1.6rem;
+}
+.betters li{
+	margin-top: 56px;
+}
+.betters li a{
+	transition: 0.2s;
+	box-shadow: 0 1px 1px 1px rgba(0,0,0,0.12);
+}
+.betters li a img{
+	width: 40%;
+	margin-top: -28px;
+}
+.betters li a h4{
+	font-size: 1.6rem;
+}
+.betters li a p{
+	font-size: 1.4rem;
+}
+.betters li a p.caption{
+	font-size: 1.2rem;
+	color: #C2A661;
+	opacity: 0.7;
+}
+.betters li a:hover{
+	box-shadow: 0 0 4px 1px rgba(0,0,0,0.22);
+	transform: translateY(-5px);
+}
+.teah ul{
+    width: 1216px;
+}
+.teah ul li{
+    width: 288px;
+}
+
+.scroll ul li{
+    transition: 0.2s;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.12);
+}
+.scroll li span{
+    font-size: 1.4rem;
+    background-color: #C2A661;
+    left: 0;
+    top: 6px;
+}
+.scroll li:hover{
+	box-shadow: 0 0 1px 2px rgba(0,0,0,0.22);
+	transform: translateY(-5px);
+}
+/* /* 底部样式 */
+.last-footer ul{
+ box-shadow: 0 0 4px rgba(0,0,0,0.12);
+}
+.last-footer a span .iconfont{
+    font-size: 2.5rem;
+}
+.last-footer li .active{
+    color: #00A862 !important;
+}
